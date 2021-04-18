@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
-html {
-  font-size: 62.5%;
-}
-body {
+html, body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+div{
+  width: 100%;
 }
 h1 {
   margin-bottom: 0.5em;
@@ -423,4 +424,12 @@ img {
 
 .fadeIn-bottom {
     top: 80%
+}
+#titleName{
+  font-size: 2.4em; text-shadow: #444 1px 2px 2px;
+}
+@media only screen and (max-width: 600px) {
+  #titleName{
+    font-size: 1.5em;
+  }
 }
