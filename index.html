@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel = "icon" href = 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="asset/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="asset/style.css">
+        <script type="text/javascript" src="asset/jquery.js"></script>
+        <script type="text/javascript" src="asset/vuejs.js"></script>
+</head>
+<body>
+	<div id="app">
+	<header class="header-area ">
+    <nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+			<a href="#" class="navbar-brand" style="border: 1px solid #fff; padding: 5px; border-radius: 50%; margin-top: 30px;">MPA</a>
+			
+			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+			</button>
+			
+			<div id="main-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="#" class="nav-item nav-link active">Home</a></li>
+					<li><a href="#" class="nav-item nav-link">About Us</a></li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Portfolio</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+							<a href="#" class="dropdown-item">Dropdown Item 4</a>
+							<a href="#" class="dropdown-item">Dropdown Item 5</a>
+						</div>
+					</li>
+					<li><a href="#" class="nav-item nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="banner">
+		<div class="container">
+			<h1 style="font-size: 2.4em; text-shadow: #444 1px 2px 2px;">Master Printers Association Minna Chapter</h1>
+			<p class="text-center">Pillar of Knowledge</p>
+			<a href="#content" class="button button-primary">Explore</a>
+		</div>
+	</div>
+</header>
+
+<main>
+	<section id="content" class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 style="font-weight: bold;">PREAMBLE</h4>
+					<p class="text-justify">
+						We the printers in Niger State realizing the needs for developing our individual and collective interest; and to the furtherance of our profession firmly and solemnly agreed to establish an association which shall be known as MASTER PRINTERS ASSOCIATION OF NIGERIA. This association is formed to provide forum for the development and unity of its members. 
+
+						In view of the above, we do hereby make, enact and give ourselves the following constitution:-</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<div class="container001" id="gallery">
+     <div class="row">
+         <div class="col-md-4">
+             <div class="gallery"> <a href="#">
+                     <div class="gallery-overlay"></div> <img class="gallery-image" src="asset/chairman.jpg">
+                     <div class="gallery-details fadeIn-bottom">
+                         <h3 class="gallery-title">Alh.Abdulsalam Olalekan</h3>
+                         <p class="gallery-text"><i class="fa fa-map-marker"></i> Chairman</p>
+                     </div>
+                 </a> </div>
+         </div>
+         <div class="col-md-4">
+             <div class="gallery"> <a href="#">
+                     <div class="gallery-overlay"></div> <img class="gallery-image" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557246502/test_zoom.jpg">
+                     <div class="gallery-details fadeIn-bottom">
+                         <h3 class="gallery-title"> </h3>
+                         <p class="gallery-text"><i class="fa fa-map-marker"></i> Nepal</p>
+                     </div>
+                 </a> </div>
+         </div>
+         <div class="col-md-4">
+             <div class="gallery"> <a href="#">
+                     <div class="gallery-overlay"></div> <img class="gallery-image" src="asset/sec-gen.jpg">
+                     <div class="gallery-details fadeIn-bottom">
+                         <h3 class="gallery-title">Chikason</h3>
+                         <p class="gallery-text"><i class="fa fa-map-marker"></i> Sec. Gen.</p>
+                     </div>
+                 </a> </div>
+         </div>
+     </div>
+ </div>
+ <br>
+<footer class="footer text-white w-100 ">
+	<div class="row p-bg w-100 p-5 m-0">
+		<div class="col-md-6 col-lg-6">
+			<h5 class="bold text-white">Office Contact</h5> 
+			<p class="fs01 m-0">08035967189, 08069465673</p>
+		</div>
+		<div class="col-md-6 col-lg-6">
+			<h5 class="bold text-white">Office Address</h5> 
+			<p class="fs01">MPA Secretariate  Shop 24/25 Hamfa Plaza Opp. Ansar-Deen Mosque, Lagos Street, Minna, Niger State</p>
+		</div>
+	</div>
+	 <div class="text-center p-3" style="font-size: 0.8em;">
+		copyrigt @2021 maxrange
+	</div>
+</footer>
+  
+      <script id="rendered-js" >
+jQuery(function ($) {
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() >= 200) {
+      $('.navbar').addClass('fixed-top');
+    } else if ($(this).scrollTop() == 0) {
+      $('.navbar').removeClass('fixed-top');
+    }
+  });
+
+  function adjustNav() {
+    var winWidth = $(window).width(),
+    dropdown = $('.dropdown'),
+    dropdownMenu = $('.dropdown-menu');
+
+    if (winWidth >= 768) {
+      dropdown.on('mouseenter', function () {
+        $(this).addClass('show').
+        children(dropdownMenu).addClass('show');
+      });
+
+      dropdown.on('mouseleave', function () {
+        $(this).removeClass('show').
+        children(dropdownMenu).removeClass('show');
+      });
+    } else {
+      dropdown.off('mouseenter mouseleave');
+    }
+  }
+
+  $(window).on('resize', adjustNav);
+
+  adjustNav();
+});
+//# sourceURL=pen.js
+    </script>
+
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
